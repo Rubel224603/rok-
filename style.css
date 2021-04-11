@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700;1,800&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serifial,Arial !important;
+	
+}
+a{
+	text-decoration:none;
+}
+p{
+	line-height: 150%;
+	margin-bottom:2em;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+.header_section{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}.main_header_area{
+	margin-bottom: 20px;
+}
+.header_logo img{
+	width: 110px;
+}.input-group{
+	outline:none;
+}
+.serchInpu{
+	
+	
+}
+.serchInpu:focus {
+   outline: none !important;
+   box-shadow: none;
+}
+.card {
+    margin-left: 140px;
+    font-size: 37px;
+    border: none;
+    margin-bottom: 1;
+    margin-bottom: -3px;
+}
+
+button.btn.btn-outline-success.singBtn {
+    margin-top: -52px;
+    margin-left: 21px;
+}
+
+.imgBtn{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+	margin-bottom: -30px;
+	
+}
+center{
+	margin: -24px;
+}
+
+ul li a:first-child {
+	border: 1px solid transparent;
+}
+.m{
+	margin-top: 100px;
+}
+.bannerIMage{
+	margin:left: 5px;
+}
+
+
+
+.Bottom_Silede_section{
+	margin-top:  40px;
+}
+.Bottom_Silede_section .small_banner a img{
+	width: 100%;
+}.best_seler_title{
+	margin-top: 20px;
+}
+.bset_seller_catagory{ 
+	display: flex;
+    align-items: center;
+    
+	margin: 10px 0px 0px 0px;
+}.best_seller_book{
+	background-color: #0797d6;
+    width: 355px;
+	box-shadow: 0 0 5px 1px rgb(191 191 191 / 75%);
+}
+.best_seller_book_inner{
+	   padding: 20px 30px 0 30px;
+    height: 97px;
+    background-color: #F5F3FA;
+    border-bottom: 0;
+}
+	.best_seller_book_list{
+    border: none;
+    background-color: transparent;
+    color: #b2b2b2;
+    padding: 6px 12px;
+    margin: 0px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+	}
+.best_seller_catagory_list{	
+	border-radius: 20px;
+    font-size: 12px;
+    color: #666666;
+    padding: 8px 15px;
+    height: 34px;
+    border-color: #e8e9eb;
+    background-color: #ffffff;
+    
+    background-repeat: no-repeat;
+    background-position: 95% 55%;}
+	
+
+.best_seller_book_tabs{
+    border: none;
+    justify-content: center;
+    padding: 8px 0px 0px 0px;
+}
+.book_active{
+    color: #495057;
+    border-bottom: 2px solid #51c2fe;
+}.best_seller_book_serial_number{
+	font-size: 24px;
+    color: #b2b2b2;
+    margin: 0;
+}.best_seller_book_serial_number .serial_number_active{
+	color: #ff9900;
+}
+.best-seller-book-item-wrapper .best-seller-book-img {
+    width: 35px;
+    height: 50px;
+    margin: 0px 0px 0px 15px;
+}.card_body .container img{
+	width: 70px;
+}.autor{
+	font-size: 12px;
+    margin: -29px 32px -19px -4px;
+}
+.bookTitle{
+	
+}.best_seller_book .bg{
+	background:#0797D6;
+	
+}.best_sellerbok{
+	padding: 17px;
+	border: 2px solid #0797D6;background:#0797D6;
+	box-sizing:border-box;
+}.best_selelrAutor{
+	padding-top: 17px ;
+	border: 1px solid F7941E;box-sizing:border-box;background:#F7941E;}
+.best_selelrAutorBg{
+		background:#F7941E;
+	}
+.size{
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+ /* recently sold product css start  */
+  
+.kapakapi{
+	overflow:hidden;
+	box-sizing:border-box;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+.book-wrapaper {
+    position: relative;
+    width: 100%;
+    height: 327px;
+   
+  }
+  .book-img-wrap {
+    position: relative;
+    margin-top: 20px;
+  }
+  .discount-badge {
+    position: absolute;
+    top: 0;
+    left: 8%;
+  }
+  .discount-badge b {
+    position: absolute;
+    top: 5px;
+    color: #000;
+    left: 20%;
+  }
+  .pre-order-badge{
+    position: absolute;
+    top: 80px;
+    left: 19%;
+  }
+  .serial-badge{
+    position: absolute;
+    top: -4px;
+    left: 35%;
+  }
+  .serial-badge b{
+    position: absolute;
+    top: 5px;
+    color: #000;
+    left: 20%;
+  }
+  .insideDisc-re {
+    position: absolute;
+    bottom: 0px;
+    right: 57px;
+    width: 40%;
+}
+.insideDisc {
+  position: absolute;
+  bottom: 0px;
+  right: 70px;
+  width: 30%;
+}
+
+.bookimg img {
+    width: 60%;
+    margin: auto;
+}
+.add-toCard-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    padding: 0px 0px 6px 8px;
+    background: #ff9900;
+    display: none;
+    transform: translate(-50%);
+    width: 64%;
+    text-align: center;
+    
+   
+}
+.add-toCard-btn i{
+    color: rgb(245, 245, 245);
+}
+
+.book-title {
+    text-align: center;
+    padding: 15px 0px 3px 0px;
+}
+.book-orginal-price {
+    width: 50%;
+    float: left;
+}
+.book-orginal-price p {
+    padding-left: 35px;
+    font-weight: bold;
+}
+.currentPrice {
+    width: 50%;
+    float: left;
+}
+.currentPrice p {
+    padding-left: 8px;
+    font-weight: bold;
+}
+.book-price {
+    overflow: hidden;
+    text-align: center;
+}
+.view-dettails-wrap {
+    overflow: hidden;
+   
+}
+.view-dettails-wrap button {
+    padding: 6px 20px;
+    margin: auto;
+    background: #0a6ec0;
+    display: block;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    display: none;
+}
+.book-wrapaper:hover .add-toCard-btn {
+    display: block;
+    transition: .15s ease-in-out;
+    text-decoration: none;
+  
+}
+.book-wrapaper:hover .view-dettails-wrap button {
+    display: block;
+    transition: .15s ease-in-out;
+}
+.book-wrapaper:hover .insideDisc {
+    display: none;
+    transition: .15s ease-in-out;
+}
+.book-wrapaper:hover .book-img-wrap img  {
+    opacity: .5;
+}
+.book-wrapaper:hover .discount-badge  {
+    opacity: .5;
+}
+.book-wrapaper:hover {
+    background: #FAF9F2;
+    
+    height: 84%;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 7px 0px #cdcdcd;
+    transition: .15s ease-in-out;
+}
+.ProductBancground {
+    background: -webkit-linear-gradient(#ffffff, #ffffff), url(../images/pattern_6.png);
+    border-bottom: 2px solid #ddd;
+
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+.ProductSetcionTitle h3 {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: lato;
+}
+.section-viewallbtn {
+    padding: 10px 40px;
+    float: right;
+}
+.book-wrapaper:hover .product-cart-text {
+    opacity: 0.2;
+   
+}
+.product-cart-text{
+  color: black;
+}
+
+.slick-prev.slick-arrow {
+    width: 30px;
+    height: 73px;
+    background: #FFFFFF;
+   
+    z-index: 111;
+    border: solid 1px #fff;
+    box-shadow: 9px 3px 36px -8px #000;
+    position: absolute;
+    left: 1%;
+  }
+  .slick-prev.slick-arrow:before {
+    color: #000;
+  }
+  .slick-next.slick-arrow {
+    width: 30px;
+    height: 73px;
+    background: #FFFFFF;
+    z-index: 111;
+    border: solid 1px #fff;
+    box-shadow: 9px 3px 36px -8px #000;
+    position: absolute;
+    right: 1%;
+  }
+  .slick-next.slick-arrow:before {
+    color: #000;
+  }
+
+  /* recentlysold produc css edn  */
+
+
+  
+  
+   .btn1 {
+    background-color: #FFFFFF;
+    color: #7e7e7e;
+    padding: .5em 1em;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+   height: 60px;
+    margin: 10px auto;
+    width: 19.60%;
+  
+    --background-color: #ffffff;
+    --border-size: 2px;
+    --accent-color: #0AF;
+  }
+  .btn2{
+    font-size: 15px;
+  }
+  
+ 
+  .btn1.btn-background-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #00AAFF;
+  
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .btn1.btn-background-slide:hover::before,
+  .btn1.btn-background-slide:focus::before {
+    transform: scaleX(1);
+  }
+  .btn1.btn-background-slide {
+    transition: color 300ms ease-in-out;
+    z-index: 1;
+  }
+  .btn1.btn-background-slide:hover,
+  .btn1.btn-background-slide:focus {
+    color: white;
+  }
+  .bgclr{
+	  background:#ECEDEF;
+  }
+  /* button hover end  */
+  
+  
+  
+  
+  
+  
+  
+  
+
+.fot{
+	margin-top: 50px;
+}
+.footer-bacis-info{
+	margin-top: 30px;
+	font-size: 15px;
+}.onnorokom_logo{
+	margin-top: 40px;
+}.ml10{
+	margin-left: 80px;
+	margin-top: 25px;font-size: 13px;
+}.m0{
+	margin-top: 25px;
+}.fbPage img{
+	width: 300px; height: 180px;
+}.p-text {
+    text-align: center;
+    font-size: small;
+}.copyright {
+    padding-top: 12px;
+    padding-bottom: 3px;
+    background-color: #f1f2f4;
+    font-size: 90%;
+    align-items: center;
+    margin-top: 0px;
+}
